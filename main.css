@@ -46,3 +46,60 @@
 .btn-contact:hover {
   scale: 1.05;
 }
+
+.hero-section{
+  display: flex;
+  justify-content: space-between;
+  height: 80vh;
+  padding: 8px;
+}
+
+.hero-section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+
+.hero-section .cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  padding: 32px;
+}
+
+.hero-section .cta h1 {
+  font-size: 48px;
+}
+
+.hero-section .cta p {
+  font-size: 20px;
+}
+
+.hero-section .cta button {
+  width: 25%;
+  background-color: tomato;
+  border: none;
+  color: white;
+  border-radius: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.hero-section .hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section .hero-img{
+  width: 60%;
+  height: 60%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 100%;
+}
