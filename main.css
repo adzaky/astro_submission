@@ -4,10 +4,12 @@
 /* Style Untuk Semua Elemen HTML */
 * {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .header {
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,10 +49,12 @@
   scale: 1.05;
 }
 
-.hero-section{
+/* Hero Section */
+
+.hero-section {
   display: flex;
   justify-content: space-between;
-  height: 80vh;
+  height: 100vh;
   padding: 8px;
 }
 
@@ -90,16 +94,120 @@
   font-weight: bold;
 }
 
-.hero-section .hero{
+.hero-section .hero {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.hero-section .hero-img{
+.hero-section .hero-img {
   width: 60%;
   height: 60%;
   object-fit: cover;
   object-position: center;
   border-radius: 100%;
+}
+
+/* Section Menu makanan */
+
+.menu-makanan {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  height: 100vh;
+  padding-top: 86px;
+}
+
+.menu-makanan h1 {
+  font-size: 36px;
+}
+
+.menu-makanan p {
+  width: 720px;
+  text-align: center;
+}
+
+.card-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+  border: 2px solid black;
+  padding: 16px;
+  gap: 12px;
+}
+
+.desc {
+  width: 250px;
+  text-align: center;
+}
+
+.frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 16px;
+  border: 2px solid black;
+}
+
+.img-makanan {
+  width: 300px;
+}
+
+.btn-pesan {
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 12px;
+  border: 0;
+  background-color: tomato;
+  color: white;
+  font-weight: bold;
+}
+
+.card-container {
+  display: flex;
+  gap: 16px;
+}
+
+.footer {
+  background-color: tomato;
+  color: white;
+}
+
+.footer > div {
+  padding: 16px 32px 16px 32px;
+}
+
+.top-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sosial-media {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sosial-media > a {
+  margin-right: 8px;
+}
+
+.sosial-media img {
+  width: 24px;
+  height: 24px;
+}
+
+.bottom-footer {
+  background-color: red;
+}
+
+.bottom-footer h6 {
+  text-align: center;
 }
