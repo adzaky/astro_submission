@@ -16,6 +16,7 @@
   background-color: tomato;
   color: white;
   padding: 16px 32px 16px 32px;
+  z-index: 10;
 }
 
 .list {
@@ -94,6 +95,10 @@
   font-weight: bold;
 }
 
+.hero-section .cta button:hover {
+  scale: 1.02;
+}
+
 .hero-section .hero {
   display: flex;
   justify-content: center;
@@ -139,6 +144,13 @@
   gap: 12px;
 }
 
+.card-menu:hover {
+  scale: 1.005;
+  box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
 .desc {
   width: 250px;
   text-align: center;
@@ -167,6 +179,11 @@
   background-color: tomato;
   color: white;
   font-weight: bold;
+}
+
+.btn-pesan:hover {
+  scale: 1.05;
+  cursor: pointer;
 }
 
 .card-container {
@@ -219,6 +236,22 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.footer-logo > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo img {
+  width: 50px;
 }
 
 .sosial-media {
